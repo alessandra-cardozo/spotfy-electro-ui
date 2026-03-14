@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Electronic Music Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">
+      <span class="logo-icon">🎧</span>
+      <div>
+        <h1>Electronic Music Hub</h1>
+        <p>Descubra DJs, sets e playlists</p>
+      </div>
+    </div>
+
+    <nav class="menu">
+      <a href="#hero">Início</a>
+      <a href="#djs">DJs</a>
+      <a href="#playlists">Playlists</a>
+      <a href="#about">Sobre</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <span class="badge">Música eletrônica • House • Techno • EDM</span>
+        <h2>Seu espaço para explorar os maiores DJs da cena eletrônica</h2>
+        <p>
+          Navegue por artistas, descubra estilos, filtre por nome e monte sua experiência
+          visual com um site moderno, bonito e responsivo.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#djs" class="btn primary">Explorar DJs</a>
+          <a href="#playlists" class="btn secondary">Ver playlists</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h3>Destaques</h3>
+        <ul>
+          <li>Mais artistas eletrônicos</li>
+          <li>Busca em tempo real</li>
+          <li>Filtro por categoria</li>
+          <li>Layout responsivo</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="djs">
+      <div class="section-header">
+        <div>
+          <span class="section-tag">Catálogo</span>
+          <h2>Top DJs</h2>
+        </div>
+
+        <div class="controls">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Pesquisar DJ..."
+            aria-label="Pesquisar DJ"
+          />
+
+          <select id="genreFilter" aria-label="Filtrar por estilo">
+            <option value="all">Todos os estilos</option>
+            <option value="EDM">EDM</option>
+            <option value="House">House</option>
+            <option value="Techno">Techno</option>
+            <option value="Progressive House">Progressive House</option>
+            <option value="Future House">Future House</option>
+            <option value="Brazilian Bass">Brazilian Bass</option>
+            <option value="Deep House">Deep House</option>
+            <option value="Trance">Trance</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="dj-grid" id="djGrid"></div>
+      <p id="emptyState" class="empty-state hidden">Nenhum DJ encontrado.</p>
+    </section>
+
+    <section class="section" id="playlists">
+      <div class="section-header">
+        <div>
+          <span class="section-tag">Seleção</span>
+          <h2>Playlists para curtir</h2>
+        </div>
+      </div>
+
+      <div class="playlist-grid">
+        <article class="playlist-card">
+          <h3>EDM Festival Energy</h3>
+          <p>Uma seleção para quem gosta de drops fortes, vocais marcantes e energia de festival.</p>
+          <span>Ideal para treinar, dirigir ou animar o dia</span>
+        </article>
+
+        <article class="playlist-card">
+          <h3>House Sunset Vibes</h3>
+          <p>Sons mais leves e envolventes para relaxar, estudar ou curtir o fim de tarde.</p>
+          <span>Clima elegante e moderno</span>
+        </article>
+
+        <article class="playlist-card">
+          <h3>Techno Night Session</h3>
+          <p>Batidas intensas, atmosfera underground e tracks perfeitas para a madrugada.</p>
+          <span>Para fãs de pista e imersão sonora</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about-box">
+        <span class="section-tag">Sobre</span>
+        <h2>Projeto visual sem depender de API</h2>
+        <p>
+          Como a reprodução com Spotify/API não funcionou no seu caso, este projeto foi
+          transformado em uma vitrine moderna e elegante de música eletrônica, com foco em
+          visual, responsividade e organização dos artistas.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>Projeto feito por <strong>Alessandra Cardozo dos Santos</strong></p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/alessandra-cardozo-dos-santos-634529158" target="_blank" rel="noopener noreferrer">
+          LinkedIn
+        </a>
+        <a href="https://github.com/alessandra-cardozo" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="javascript.js"></script>
+</body>
+</html>
