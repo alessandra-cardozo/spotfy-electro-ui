@@ -298,28 +298,34 @@ Este projeto pode ser utilizado para fins de estudo, portfólio e prática pesso
 
 ---
 
-Contato
+## Desenvolvido por
 
-Desenvolvido por Alessandra Cardozo dos Santos.
+**Alessandra Cardozo dos Santos**
 
-Veja mais em:
+- [LinkedIn](https://www.linkedin.com/in/alessandra-cardozo-dos-santos-634529158)
+- [GitHub](https://github.com/alessandra-cardozo)
 
-LinkedIn: www.linkedin.com/in/alessandra-cardozo-dos-santos-634529158
+# Spotify Clone - Música Eletrônica
 
-GitHub: github.com/alessandra-cardozo
+Projeto front-end inspirado no Spotify, com foco em DJs e música eletrônica.  
+A aplicação apresenta artistas, playlists, destaques e uma interface moderna, responsiva e agradável visualmente.
 
+## Objetivo
 
-Salve os 4 arquivos na mesma pasta:
-`index.html`, `style.css`, `javascript.js` e `README.md`.
+Este projeto foi desenvolvido com o objetivo de praticar:
 
+- HTML5
+- CSS3
+- JavaScript
+- Layout responsivo
+- Organização de interface inspirada em plataformas de streaming
 
+## Funcionalidades
 
-         
-
-            
-            
-       
-
+- Página inicial moderna e responsiva
+- Cards com DJs eletrônicos
+- Imagens de artistas
+- Playlists em destaque
 
 
    
